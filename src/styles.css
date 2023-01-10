@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.squares {
+  width: 100px;
+  height: 100px;
+  background: black;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.squares:hover,
+.squares:focus {
+  box-shadow: inset 0px 0px 5px white;
+}
+.squares:active {
+  box-shadow: inset 0px 0px 10px white;
+}
+
+.gameContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
